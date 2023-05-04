@@ -14,39 +14,33 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child:Row(
-            verticalDirection: VerticalDirection.down,
+          child:Column(
             children: <Widget>[
-              Container(
-                height: double.infinity,
-                width: 100.0,
-                color: Colors.red,
-                child: Text('Container 1'),
+              CircleAvatar(
+                radius: 50.0,
+                backgroundImage: AssetImage('images/userImage.png'),
               ),
-              SizedBox(
-                width: 46.35,
-              ),
-              Container(
-                width: 100.0,
-                height: 100.0,
-                color: Colors.yellow,
-                child: Text(
-                  'Container 2'
+              Text(
+                  'JongHyun',
+                style: TextStyle(
+                  fontFamily: 'Pacifico',
+                  fontSize: 40.0,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
                 ),
               ),
-              SizedBox(
-                width: 46.35,
-              ),
-              Container(
-                width: 100.0,
-                height: double.infinity,
-                color: Colors.blue,
-                child: Text(
-                    'Container 3'
+              Text(
+                'FLUTTER DEVELOPER',
+                style: TextStyle(
+                  fontFamily: 'Source Sans Pro',
+                  color: Colors.teal.shade100,
+                  fontSize: 20.0,
+                  letterSpacing: 2.5,
+                  fontWeight: FontWeight.bold,
                 ),
-              ),
+              )
             ],
-          ),
+          )
         ),
       ),
     );
