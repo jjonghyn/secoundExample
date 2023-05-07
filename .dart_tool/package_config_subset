@@ -1,3 +1,7 @@
+mi_card
+2.1
+file:///C:/example/secoundExample/
+file:///C:/example/secoundExample/lib/
 async
 2.12
 file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.8.2/
@@ -90,8 +94,4 @@ flutter_test
 2.12
 file:///C:/flutter/packages/flutter_test/
 file:///C:/flutter/packages/flutter_test/lib/
-mi_card
-2.1
-file:///C:/secoundExample/
-file:///C:/secoundExample/lib/
 2
